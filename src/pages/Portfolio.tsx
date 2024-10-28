@@ -1,9 +1,9 @@
-import Work from "../components/Work";
+import Project from "../components/Project";
 
 function Portfolio() {
     return (
         <>
-            <Work />
+            <Project />
         </>
     )
 }
