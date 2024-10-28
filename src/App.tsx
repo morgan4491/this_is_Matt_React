@@ -2,8 +2,6 @@ import {Routes, Route} from 'react-router-dom';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
-
-import './App.css'
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
