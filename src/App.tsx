@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
 
-      <main> 
+      <section> 
         <Routes>
 
           <Route path="/" element={<AboutMe />} />
@@ -23,7 +23,7 @@ function App() {
 
         </Routes>
 
-      </main>
+      </section>
 
       <Footer />
 

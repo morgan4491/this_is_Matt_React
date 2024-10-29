@@ -29,8 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #555;
-    color: white;
+    background-color: #598392;
+    color: #AEC3B0;
     padding: 8px 5%;
 
     div.logo {
@@ -50,7 +50,7 @@ header {
 
     nav {
         a {
-            color: white;
+            color: #AEC3B0;
             text-decoration: none;
             &:not(:last-child) {  // The '&' acts as a 're-selection' of the parent you are already in (in this case we re-select the 'a' element)
                 margin-right: 8px;
@@ -58,6 +58,9 @@ header {
 
             &:hover, &.active {
                 text-decoration: underline;
+                background-color: #AEC3B0;
+                color:#777;
+                border-radius: 2px;
             }
         }
     }
@@ -67,10 +70,10 @@ header {
 
 section.hero {
     display: flex;
-    background-color: #e0d7c8;
+    background-color: #88888A;
     margin-bottom: 20px;
     div.image {
-        background-image: url('/images/IMG_2371.jpeg');
+        background-image: url('/public/images/DSC_0344.jpeg');
         background-size: cover;
         background-position: center;
         min-height: 400px;
@@ -85,11 +88,13 @@ section.hero {
         min-width: 50%;
         h4 {
             font-size: 2.2rem;
+            color: #01161E;
         }
         p {
             font-weight: 300;
             max-width: 90%;
             margin-top: 10px;
+            color: #01161E;
         }
         p.quote {
             color: #777;
@@ -99,13 +104,13 @@ section.hero {
 
 // Work Section
 
-main {
+section {
     // padding: 15px 0;
-    color: #fff;
+    color: #01161E;
     flex: 1;
     h4 {
         margin-bottom: 15px;
-        border-bottom: 2px solid #999;
+        border-bottom: 2px solid #01161E;
         padding-bottom: 10px;
     }
 
@@ -167,14 +172,14 @@ form {
     }
 
     button {
-        background: #DBF8B1;
-        color: #aaa;
+        background: #598392;
+        color: #AEC3B0;
         border: 2px solid #eee;
         border-radius: 3px;
         cursor: pointer;
         &:hover {
-            background: #eee;
-            color: #444;
+            background: #AEC3B0;
+            color: #598392;
         }
     }
 }
@@ -185,8 +190,8 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 35px 5%;
-    background: #999;
-    color: #ccc;
+    background: #598392;
+    color: #AEC3B0;
 }
 
 // Media Query
