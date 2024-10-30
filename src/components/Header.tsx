@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <div className="logo">
-                <img src="" alt="" />
+                <img src="images/IMG_2371.jpeg" alt="Matt headshot icon" />
                 <h3>Matt Morgan</h3>
             </div>
 

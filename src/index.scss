@@ -102,6 +102,12 @@ section.hero {
     }
 }
 
+// About Me Section
+
+.about-me {
+    padding: 2.0rem;
+}
+
 // Work Section
 
 section {
@@ -151,6 +157,16 @@ section {
     }
 }
 
+// Resume Section
+.software-list {
+    text-align: center;
+    margin-top: 15px;
+}
+
+ul {
+    text-align: center;
+    margin-top: 15px;
+}
 // Contact Section
 
 form {
@@ -195,6 +211,12 @@ form {
             color: #598392;
         }
     }
+}
+
+// Resume section
+
+.resume {
+    margin-top: 35px;
 }
 
 // Footer Section

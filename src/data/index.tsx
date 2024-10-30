@@ -29,14 +29,14 @@ const myWork = [
     },
     {
         title: 'Original Portfolio',
-        description: 'A quick and easy terminal app that generates README.md files for you. It was made with Node, TypeScript and Inquirer',
+        description: 'This lesson was used to hone our CSS styling and formatting skills',
         backgroundImage: 'images/portfolio.jpg',
         gitUrl: 'https://github.com/morgan4491/portfolio_sept_2024_this_is_Matt',
         appUrl: ''
     },
     {
         title: 'Code Refactor Repository',
-        description: 'A quick and easy terminal app that generates README.md files for you. It was made with Node, TypeScript and Inquirer',
+        description: 'A short exercise that focused on accessibility, semantic element usage, HTML and CSS',
         backgroundImage: 'images/refactor.jpg',
         gitUrl: 'https://github.com/morgan4491/horiseon_refactor_directory',
         appUrl: ''
